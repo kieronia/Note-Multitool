@@ -127,8 +127,9 @@ prefix = """
 """
 
 suffix = """
-Select an option!
+     Select an option!
 """
+
 
 Menu.display(prefix=prefix, indent=5, color='blue', suffix=suffix, options={
     'Read pastebin': readpastebin,
